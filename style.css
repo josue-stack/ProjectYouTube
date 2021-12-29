@@ -1,0 +1,119 @@
+.header-menu-container{
+    width: 100%;
+    background-color: white;
+    
+}
+
+.header-menu-container .header-nav-menu{
+    max-width: 1800px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+}
+
+
+.menu-link{
+    font-size: 3em;
+    text-decoration: none;
+    color: #e95040;
+    font-weight: 700;
+   
+}
+.btn-link{
+    font-size: 2em;
+    padding: 10px 30px;
+    border:  solid #e95040;
+    border-radius:25px ;
+    text-decoration: none;
+    color: #e95040;
+    font-weight: 300;
+}
+
+/*
+    MIAN STYLES
+*/
+
+.banner-found{
+    width: 100%;
+    background-image: url('metropolis.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    
+}
+
+.banner-found .main-title{
+    max-width: 1800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.banner-found .main-title > h1{
+    font-size: 8em;
+    color: white;
+    font-weight: bold;
+    padding-top: 40px;
+
+}
+.banner-found .main-title > p{
+    font-size: 1.8em;
+    color: white;
+    font-weight: 300;
+    padding-bottom:calc(60px - 20px) ;
+}
+
+.banner-found .main-title > a{
+    font-size: 2em;
+    color: #e95040;
+    background-color: white;
+    font-weight: bold;
+    padding: 20px 40px;
+    border-radius: 20px;
+    text-decoration: none;
+    margin-bottom: 30px;
+}
+
+.banner-found .main-title > a:hover{
+    box-shadow: 0 0 1em white;
+    color: white;
+    background-color: #e95040;
+    border: 1px solid white;
+}
+
+.articles-service{
+    max-width: 1400px;
+    margin:  0 auto;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.articles-service .content{
+    width: 200px;
+    height: 300px;
+    border: 1px solid white;
+    background-color: #e95040;
+    opacity: 0.8;
+    margin-top:30px ;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 300px;
+    margin-top: 100px;
+}
+
+.articles-service .content img{
+    width: 100px;
+    padding-bottom:30px ;
+    
+}
+
+.articles-service .content p{
+    color: white;
+    font-size: 2em;
+    font-weight: 400;
+}
+
